@@ -16,5 +16,5 @@ class Client:
     print("Soma de 5 e 3:", conn.root.exposed_add(5, 3))  # Soma
     print("Subtração de 5 e 3:", conn.root.exposed_subtract(5, 3))  # Subtração
     print("Multiplicação de 5 e 3:", conn.root.exposed_multiply(5, 3))  # Multiplicação
-    print("Divisão de 5 por 3:", conn.root.exposed_divide(5, 3))  # Divisão
-    print("Divisão de 5 por 0:", conn.root.exposed_divide(5, 0))  # Testa divisão por zero
+    print("Divisão de 5 por 5:", conn.root.exposed_divide(5, 5))  # Divisão
+    print("Divisão de 5 por 1:", conn.root.exposed_divide(5, 1))  # Testa divisão por zero
